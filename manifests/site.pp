@@ -55,7 +55,6 @@ node default {
   # core modules, needed for most things
   include dnsmasq
   include git
-  include hub
   include nginx
 
   # fail if FDE is not enabled
@@ -64,15 +63,25 @@ node default {
   }
 
   # node versions
-  include nodejs::v0_6
-  include nodejs::v0_8
   include nodejs::v0_10
 
   # default ruby versions
-  include ruby::1_8_7
-  include ruby::1_9_2
   include ruby::1_9_3
   include ruby::2_0_0
+
+  # Our custom
+  include chrome
+  include googledrive
+  include google_notifier
+  include hipchat
+  include iterm2::dev
+  include java
+  include chrome
+
+  class { 'intellij':
+    edition => 'ultimate',
+    version => '12.1.4'
+  }
 
   # common, useful packages
   package {

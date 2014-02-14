@@ -55,3 +55,22 @@ github "xquartz",    "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "alfred", "1.1.7"
+github "colloquy", "1.0.0"
+github "chrome", "1.1.2"
+github "dropbox", "1.2.0"
+github "evernote", "2.0.5"
+github "firefox", "1.1.8"
+github "googledrive", "1.0.2"
+github "google_notifier", "1.0.1"
+github "hipchat", "1.1.0"
+github "intellij", "1.4.0"
+github "iterm2", "1.0.7"
+github "java", "1.2.0"
+github "python", "1.2.1"
+github "rdio", "1.0.0"
+github "skype", "1.0.8"
+github "spotify", "1.0.0"
+github "sublime_text_2", "1.1.2"
+github "sublime_text_3", "1.0.2", :repo => "jozefizso/puppet-sublime_text_3"
