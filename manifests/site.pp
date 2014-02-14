@@ -80,7 +80,7 @@ node default {
 
   class { 'intellij':
     edition => 'ultimate',
-    version => '12.1.4'
+    version => '13.0.2'
   }
 
   # common, useful packages
