@@ -1,3 +1,6 @@
+# NOTE
+I no longer use boxen. Instead I've crafted my own set of setup files in my dotfiles repo: https://github.com/niallmccullagh/dotfiles
+
 # my-Boxen Base Box
 
 A [bunch of puppet](http://boxen.github.com/) for OSX development environments maintained by my webdevs. This community-curated environment automates most of your laptop setup and maintenance.
